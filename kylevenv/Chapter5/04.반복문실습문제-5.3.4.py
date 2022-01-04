@@ -21,7 +21,6 @@ print("보여지는 한글을 따라 입력해주세요")
 for list in korean_list:
     print(list)
     answer = input()
-    quiz += 1
     if answer == list:
         correct += 1
     else:
