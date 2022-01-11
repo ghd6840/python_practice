@@ -11,7 +11,7 @@ champion2_name = "리신"
 champion2_health = 800
 champion2_attack = 95
 
-print(f"{champion1_name}님 소환사의 협곡에 오신것을 환영합니다.")
+print(f"{champion2_name}님 소환사의 협곡에 오신것을 환영합니다.")
 
 def basic_attack(name, attack):
     print(f"{name} 기본공격 {attack}")
@@ -29,7 +29,7 @@ class Champion:
         self.name = name
         self.health = health
         self.attack = attack
-        print(f"{name}님 소환사의 협곡에 오신것을 환영합니다")
+        print(f"{self.name}님 소환사의 협곡에 오신것을 환영합니다")
     def basic_attack(self):
         print(f"{self.name} 기본공격 {self.attack}")
 
